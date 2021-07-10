@@ -1,5 +1,7 @@
 # Programming-Languages
 
+The programs in this repository include:
+
 •Induction and recursion: Implement recursive programs in a functional language to manipulate data structures such as lists and trees. Explain the relationship between inductively  defined data types, recursive programs that process inputs of those data types, and inductive arguments about the correctness of those programs using induction over data types.
 
 •Trees and abstract syntax: Model a labeled tree data structure, such as an abstract syntax tree, using algebraic datatypes. Implement a recursiveprogram such as an interpreter,  pretty-printer, parser, and typechecker for functional, imperative or object-oriented languages.
