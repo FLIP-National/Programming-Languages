@@ -119,9 +119,6 @@ and
 and
   eval_prog (AProg e) = eval_expr e
 
-(***********************************************************************)
-(* Everything above this is essentially the same as we saw in lecture. *)
-(***********************************************************************)
 
 (* Parse a string into an ast *)
 
