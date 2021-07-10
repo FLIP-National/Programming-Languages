@@ -1,0 +1,5 @@
+# dune runtest
+# OCAMLPARAM: unset
+$ /usr/bin/nproc > /tmp/dune296a97.output 2> /dev/null
+$ /usr/bin/ocamlc.opt -config > /tmp/dunedf9618.output
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -impl test/test.ml) > _build/default/test/.test.eobjs/test.ml.d

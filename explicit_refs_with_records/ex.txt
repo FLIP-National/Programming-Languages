@@ -1,0 +1,15 @@
+interp "
+let c = let s = newref(0)
+        in
+         { inc = proc (d) { setref(s,deref(s)+1)};
+           dec = proc (d) { set ref(s,deref9s)-1)};
+           read = proc (d) { deref(s)};
+	   reset = proc (n) { setref(s,n) }
+          }
+in begin
+     (c.inc 0);
+     (c.inc 0);
+     (c.inc 0);
+     (c.reset 20);
+     (c.read 0)
+   end"
