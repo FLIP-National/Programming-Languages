@@ -1,0 +1,9 @@
+# dune utop src
+# OCAMLPARAM: unset
+$ /usr/bin/nproc > /tmp/dune28c803.output 2> /dev/null
+$ /usr/bin/ocamlc.opt -config > /tmp/dunef10cc4.output
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -impl src/interp.ml) > _build/default/src/.let.objs/interp.ml.d
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.let.objs -I src/.let.objs/.private -no-alias-deps -opaque -open Let -o src/.let.objs/let__Ds.cmo -c -impl src/ds.ml)
+> File "src/ds.ml", line 10, characters 23-27:
+> Error: Unbound type constructor tree
+[2]
